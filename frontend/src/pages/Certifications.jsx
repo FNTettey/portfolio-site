@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Container, Typography, Box, Button } from "@mui/material";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:8000";
+const API_BASE = import.meta.env.VITE_API_BASE;
 
 const certifications = [
   {

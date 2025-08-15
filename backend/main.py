@@ -7,11 +7,12 @@ import json
 BASE_DIR = Path(__file__).resolve().parent
 app = FastAPI(title="Francis Tettey — Portfolio API")
 
-# Allow frontend during dev and production (edit prod domain when you deploy)
+
 origins = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
-    # e.g. "https://francis.dev" or your Vercel/Netlify URL
+    "https://fntettey.com",
+    "https://portfolio-site-nu-rose.vercel.app/"
 ]
 
 app.add_middleware(

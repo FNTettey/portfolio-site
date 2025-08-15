@@ -2,7 +2,7 @@ import * as React from "react";
 import { Container, Grid2, Typography } from "@mui/material";
 import ProjectCard from "../components/ProjectCard";
 
-const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:8000";
+const API_BASE = import.meta.env.VITE_API_BASE;
 
 export default function Projects() {
   const [projects, setProjects] = React.useState([]);
