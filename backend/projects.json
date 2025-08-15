@@ -1,0 +1,24 @@
+[
+  {
+    "slug": "elixir-quest",
+    "title": "Elixir Quest — a Unity adventure game",
+    "summary": "A simple adventure game built in Unity. Downloadable as a ZIP.",
+    "tags": ["Unity", "C#", "Game"],
+    "image": "/static/images/elixir-quest.png",
+    "github": null,
+    "demo": null,
+    "download": "/static/downloads/elixir-quest.zip",
+    "content": "Elixir Quest is a small adventure game I built in Unity. This page provides a direct download of the game as a ZIP archive. Unzip, then run the executable file within the folder to run the game."
+  },
+  {
+    "slug": "android-shopping-list-app",
+    "title": "Android Shopping List App",
+    "summary": "A very simple Android app for managing shopping lists. Android Studio ZIP file.",
+    "tags": ["Android", "Java", "App", "Kotlin"],
+    "image": "/static/images/shopping-list.png",
+    "github": null,
+    "demo": null,
+    "download": "/static/downloads/Shopping-list.zip",
+    "content": "This was a simple android app I built as part of a university project that enables a user to create and manage shopping lists. Users can let a cover image, type in tghe item they need, select a quanity and choose a unit of measuremnet"
+  }
+]
