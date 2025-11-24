@@ -65,6 +65,7 @@ export default function Project() {
   const imageUrl = urlFor(project.image);
   const heroUrl = (useGif && gifUrl) ? gifUrl : imageUrl;
   const isVideo = heroUrl && /\.(mp4|webm)$/i.test(heroUrl);
+  const demoUrl = urlFor(project.demo);;
 
   return (
     <Container maxWidth="md" sx={{ py: 6, bgcolor: "background.default" }}>
@@ -77,6 +78,18 @@ export default function Project() {
             Download ZIP
           </Button>
         )}
+        {demoUrl && (
+          <Button
+            href={demoUrl}
+            variant="contained"
+            size="small"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Access
+          </Button>
+        )}
+
       </Stack>
       <Typography variant="body1" sx={{ mt: 2, whiteSpace: "pre-wrap" }}>
         {project.content}

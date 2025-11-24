@@ -12,6 +12,18 @@
     "content": "Elixir Quest is a small adventure game I built in Unity. In the game you climb ladders, collect powerups and at them to your inventory to help you defeat enemies. This page provides a direct download of the game as a ZIP archive. Unzip, then run the executable file within the folder to run the game."
   },
   {
+    "slug": "BiteBuilder",
+    "title": "BiteBuilder - A recipe creation app built on Google Gemini's API ",
+    "summary": "A simple web application that lets users input ingredients in their fridge and generates recipes using those ingredients. Currently deployed vis Firebase.",
+    "tags": ["Web app", "JavaScript", "Html", "Gemini", "AI", "Firebase", "Firestore"],
+    "image": "/static/images/biteBuilder.png",
+    "gif": "/static/gifs/biteBuilder.gif",
+    "github": null,
+    "demo": "https://bitebuilder-6a37e.web.app/index.html",
+    "download": null,
+    "content": "This was a web application built as part of a group project for my Computational Creativity module at university. The application takes the ingredients, desired cooking time, dietary requriements and type of meal that the user inputs and uses them as additional context for the prompt to Gemini's API. The app then generates 3 recipes which can be expanded or saved for later. The appLication used Firebase for user authetication and Firestore for database actions."
+  },
+  {
     "slug": "android-shopping-list-app",
     "title": "Android Shopping List App",
     "summary": "A very simple Android app for managing shopping lists. Android Studio ZIP file.",
@@ -21,6 +33,6 @@
     "github": null,
     "demo": null,
     "download": "/static/downloads/Shopping-list.zip",
-    "content": "This was a simple android app I built as part of a university project that enables a user to create and manage shopping lists. Users can select a cover image, type in the item they need, select a quanity and choose a unit of measuremnet"
+    "content": "This was a simple android app I built as part of a university project that enables a user to create and manage shopping lists. Users can select a cover image, type in the item they need, select a quanity and choose a unit of measurement"
   }
 ]

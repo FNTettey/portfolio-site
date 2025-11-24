@@ -10,17 +10,18 @@ export default function ProjectCard({ project }) {
     : null;
 
   return (
-    <Card sx={{ height: "100%" }}>
+    <Card sx={{ height: "100%", maxWidth: 360, width: "100%" }}>
       {project.image && (
         <CardMedia
           component="img"
-          height="160"
+          height="250"
+
           image={project.image.startsWith("/") ? `${API_BASE}${project.image}` : project.image} alt={project.title} />
       )}
       <CardContent>
         <Typography gutterBottom variant="h6">{project.title}</Typography>
         <Typography variant="body2" color="text.secondary">{project.summary}</Typography>
-        <Stack direction="row" spacing={1} sx={{ mt: 1, flexWrap: "wrap" }}>
+        <Stack direction="row" spacing={2} sx={{ mt: 1, flexWrap: "wrap" }}>
           {project.tags?.map((t) => <Chip key={t} label={t} size="small" />)}
         </Stack>
       </CardContent>
@@ -31,8 +32,9 @@ export default function ProjectCard({ project }) {
             Download
           </Button>
         )}
+
         {project.github && <Button href={project.github} target="_blank" rel="noreferrer">GitHub</Button>}
-        {project.demo && <Button href={project.demo} target="_blank" rel="noreferrer">Live</Button>}
+        {project.demo && <Button href={project.demo} target="_blank" rel="noreferrer">Access</Button>}
       </CardActions>
     </Card>
   );
