@@ -32,7 +32,6 @@ export default function Home() {
                 My current goal is to graduate with first-class honours and begin a career as a full-stack software engineer.
                 Feel free to reach out — you can email me at <Link href="mailto:fnt.tettey@gmail.com">fnt.tettey@gmail.com</Link> or connect on
                 <Link href="https://www.linkedin.com/in/fntettey" target="_blank" rel="noopener noreferrer"> LinkedIn</Link>. <br /><br />
-                [The backend of this site may take up to a minute to spin up, if the picture on the right has not loaded please wait.]
               </Typography>
             </Box>
             <Box sx={{ flex: 1, minWidth: 300, marginTop: 5 }}>
