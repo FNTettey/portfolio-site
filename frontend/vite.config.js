@@ -5,4 +5,12 @@ export default defineConfig({
   plugins: [react()],
   server: { port: 5173 },
   preview: { port: 4173 },
+
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: undefined,
+      },
+    },
+  },
 });
