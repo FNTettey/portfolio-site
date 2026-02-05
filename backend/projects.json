@@ -17,7 +17,7 @@
     "summary": "A simple web application that lets users input ingredients in their fridge and generates recipes using those ingredients. Currently deployed vis Firebase.",
     "tags": ["Web app", "JavaScript", "Html", "Gemini", "AI", "Firebase", "Firestore"],
     "image": "/static/images/biteBuilder.png",
-    "gif": "/static/gifs/biteBuilder.gif",
+    "gif": "/static/gifs/bitebuilder.gif",
     "github": null,
     "demo": "https://bitebuilder-6a37e.web.app/index.html",
     "download": null,
