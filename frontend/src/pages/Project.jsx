@@ -106,7 +106,7 @@ export default function Project() {
             style={{
               width: "100%",
               height: "auto",
-              maxWidth: "1000px",
+              maxWidth: "2000px",
               borderRadius: 8
             }}
             onError={() => setUseGif(false)}
