@@ -1,6 +1,9 @@
 import * as React from "react";
-import { Container, Typography, Grid, Box, Link } from "@mui/material";
-import ProjectCard from "../components/ProjectCard";
+import { Container, Typography, Grid, Box, Link, IconButton, Tooltip } from "@mui/material";
+import EmailIcon from "@mui/icons-material/Email";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHub from "@mui/icons-material/GitHub";
+
 
 const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:8000";
 
@@ -17,7 +20,45 @@ export default function Home() {
         <Container maxWidth="lg">
           <Box sx={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 4 }}>
             <Box sx={{ flex: 1.2, minWidth: 300 }}>
-              <Typography variant="h1" color="primary.main" gutterBottom >Francis Tettey</Typography>
+              <Typography variant="h1" color="primary.main" >Francis Tettey</Typography>
+              <Box sx={{ display: "flex", gap: 1.5, alignItems: "center" }}>
+                <Tooltip title="Email me">
+                  <IconButton
+                    component="a"
+                    href="mailto:fnt.tettey@gmail.com"
+                    aria-label="Email"
+                    color="primary"
+                  >
+                    <EmailIcon fontSize="large" />
+                  </IconButton>
+                </Tooltip>
+
+                <Tooltip title="Connect on LinkedIn">
+                  <IconButton
+                    component="a"
+                    href="https://www.linkedin.com/in/fntettey"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="LinkedIn"
+                    color="primary"
+                  >
+                    <LinkedInIcon fontSize="large" />
+                  </IconButton>
+                </Tooltip>
+                <Tooltip title="View my Github">
+                  <IconButton
+                    component="a"
+                    href="https://github.com/FNTettey/portfolio-site"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="GitHub"
+                    color="primary"
+                  >
+                    <GitHub fontSize="large" />
+                  </IconButton>
+                </Tooltip>
+
+              </Box>
               <Typography variant="h3" gutterBottom>About Me</Typography>
               <Typography variant="body1" color="text.secondary" sx={{ maxWidth: 900 }}>
                 My name is Francis Tettey, and I am a final-year Software Engineering student at the University of Leicester. As of September 2025,
@@ -30,9 +71,10 @@ export default function Home() {
                 and migrating the application's user management from Keycloak to AWS Cognito. I also significantly improved my debugging skills and my ability to explain technical issues clearly.
                 <br /><br />
                 My current goal is to graduate with first-class honours and begin a career as a full-stack software engineer.
-                Feel free to reach out — you can email me at <Link href="mailto:fnt.tettey@gmail.com">fnt.tettey@gmail.com</Link> or connect on
-                <Link href="https://www.linkedin.com/in/fntettey" target="_blank" rel="noopener noreferrer"> LinkedIn</Link>. <br /><br />
+                <br /><br />
+
               </Typography>
+
             </Box>
             <Box sx={{ flex: 1, minWidth: 300, marginTop: 5 }}>
               <img
