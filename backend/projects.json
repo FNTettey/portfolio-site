@@ -1,5 +1,28 @@
 [
   {
+    "slug": "Interview Atlas",
+    "title": "Interview Atlas - a web forum centered around job interview questions with semantic similarity features",
+    "summary": "A full stack web forum application built using React and Node,js. The application features, admin moderation, user authentication, question aggregation by company and a semantic similarity features implemented using pgvector in PostgreSQL used for finding related questions aswell as to help prevent duplicate question submission.This project is not deployed but a demo video of the application can be found in the access link above and the source code is available on GitHub.",
+    "tags": [
+      "Web app",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "pgvector",
+      "Semantic Similarity",
+      "Firebase",
+      "Material UI",
+      "Docker"
+    ],
+    "image": "/static/images/interview-atlas.png",
+    "gif": "/static/gifs/interview-atlas.gif",
+    "github": "https://github.com/FNTettey/Interview-Atlas",
+    "demo": "https://drive.google.com/file/d/19WRB7C_il7in5CdkzGur5tAR0mHrS1-1/view?usp=sharing",
+    "download": null,
+    "content": "This project was done as part of my final year project at the University of Leicester. Interview Atlas is a focused forum-style platform for candidates and mentors to share, discuss, and prepare for real interview questions. Built with a JavaScript/Express backend, PostgreSQL with pgvector-powered semantic search, and a React frontend styled with Material UI, it offers responsive navigation, user authentication via Firebase, and admin workflows for approving, editing, and managing company-specific questions. Users can submit and explore questions filtered by company, role, difficulty, tags, and date, with support for markdown answers, code snippets, voting, commenting, and related-question recommendations powered by dense vector similarity and full-text search. This project is not deployed but a demo video of the application can be found in the access link above and the source code is available on GitHub."
+  },
+  {
     "slug": "elixir-quest",
     "title": "Elixir Quest - a platformer game built in Unity",
     "summary": "A simple adventure game built in Unity. Downloadable as a ZIP.",
@@ -14,7 +37,7 @@
   {
     "slug": "BiteBuilder",
     "title": "BiteBuilder - A recipe creation app built on Google Gemini's API ",
-    "summary": "A simple web application that lets users input ingredients in their fridge and generates recipes using those ingredients. Currently deployed vis Firebase.",
+    "summary": "A simple web application that lets users input ingredients in their fridge and generates recipes using those ingredients. Currently deployed via Firebase.",
     "tags": ["Web app", "JavaScript", "Html", "Gemini", "AI", "Firebase", "Firestore"],
     "image": "/static/images/biteBuilder.png",
     "gif": "/static/gifs/bitebuilder.gif",
