@@ -6,7 +6,11 @@ const API_BASE = import.meta.env.VITE_API_BASE;
 const certifications = [
   {
     name: "AWS Certified Cloud Practitioner",
-    file: `${API_BASE}/static/certifications/aws-cloud-practitioner.pdf`
+    file: `${API_BASE}/static/certifications/aws-cloud-practitioner.pdf`,
+  },
+  {
+    name: "Basic First Aid Level 2 (VTQ)",
+    file: `${API_BASE}/static/certifications/backend/static/certifications/first-aid-certificate.pdf`,
   },
 ];
 

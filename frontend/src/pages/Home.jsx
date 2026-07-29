@@ -61,20 +61,20 @@ export default function Home() {
               </Box>
               <Typography variant="h3" gutterBottom>About Me</Typography>
               <Typography variant="body1" color="text.secondary" sx={{ maxWidth: 900 }}>
-                My name is Francis Tettey, and I am a final-year Software Engineering student at the University of Leicester. As of September 2025,
-                I completed a year-long industrial placement at Sand Technologies where I worked on a team that developed a full-stack application.
-                <br /><br />
-                Our tech stack included React.js and RestJS for the frontend, FastAPI for a scalable Python-based backend, and PostGIS for relational and geospatial data management.
-                We also used KeplerGL and GeoServer for data visualisation.
-                <br /><br />
-                Notable achievements during my internship include implementing several frontend design refreshes, earning an AWS Cloud Practitioner certification,
-                and migrating the application's user management from Keycloak to AWS Cognito. I also significantly improved my debugging skills and my ability to explain technical issues clearly.
-                <br /><br />
-                My current goal is to graduate with first-class honours and begin a career as a full-stack software engineer.
+                My name is Francis Tettey, and I recently graduated from the University of Leicester with First Class Honours in Software Engineering. In September 2025, I completed a year-long industrial placement at Sand Technologies, where I worked on a team developing a full-stack application.
                 <br /><br />
 
+                Our tech stack included React.js and RestJS for the frontend, FastAPI for a scalable Python-based backend, and PostGIS for relational and geospatial data management. We also used KeplerGL and GeoServer for data visualisation.
+                <br /><br />
+
+                Notable achievements during my placement include implementing several frontend design refreshes, earning an AWS Cloud Practitioner certification, and migrating the application's user management from Keycloak to AWS Cognito. I also significantly improved my debugging skills and my ability to explain technical issues clearly.
+                <br /><br />
+
+                For my final-year project, I designed and developed <strong>Interview Atlas</strong>, a full-stack forum application that helps graduates prepare for job interviews by sharing real interview questions and experiences. The application was built with React, Express.js, PostgreSQL, Docker, and Firebase Authentication, and features advanced functionality such as duplicate question detection and question suggestion based on semantic similarity search using vector embeddings, role-based access control, content moderation, notifications, and AI-assisted tagging. The project strengthened my full-stack development skills while giving me valuable experience designing scalable software architectures and solving complex technical challenges.
+                <br /><br />
+
+                I am now looking to begin my career as a software engineer, where I can continue building impactful software while learning from experienced engineers and tackling challenging technical problems.
               </Typography>
-
             </Box>
             <Box sx={{ flex: 1, minWidth: 300, marginTop: 5 }}>
               <img
