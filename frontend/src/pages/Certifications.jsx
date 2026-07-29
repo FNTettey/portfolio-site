@@ -10,7 +10,7 @@ const certifications = [
   },
   {
     name: "Basic First Aid Level 2 (VTQ)",
-    file: `${API_BASE}/static/certifications/backend/static/certifications/first-aid-certificate.pdf`,
+    file: `${API_BASE}/static/certifications/first-aid-certificate.pdf`,
   },
 ];
 
